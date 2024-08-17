@@ -68,7 +68,7 @@ El proyecto requiere las siguientes bibliotecas:
 - `plotly`
 - `streamlit`
 
-Estas dependencias están especificadas en el archivo `requirements.txt`.
+Estas dependencias están especificadas en el archivo `requirement.txt`.
 
 ### Contribuciones
 
