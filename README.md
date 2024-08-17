@@ -57,6 +57,9 @@ Para ejecutar este proyecto, sigue estos pasos:
 2. **Interacción**
 
     La aplicación proporcionará botones para generar histogramas y gráficos de dispersión basados en el conjunto de datos.
+   ```bash
+(https://proyecto-6-1-imvy.onrender.com/)
+    ```
 
 ### Dependencias
 
