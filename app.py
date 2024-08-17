@@ -4,9 +4,11 @@ import plotly.express as px
 
 car_data = pd.read_csv(
     "D:\\Tripleten\\Sprint 6\\Proyecto-6\\vehicles_us.csv")  # leer los datos
+# Casilla de verificación para mostrar gráficos
 hist_button = st.button('Construir histograma')  # crear un botón
 if hist_button:  # al hacer clic en el botón
     # escribir un mensaje
+    st.header('Histograma de Odometer')
     st.write(
         'Creación de un histograma para el conjunto de datos de anuncios de venta de coches')
 
@@ -18,6 +20,7 @@ if hist_button:  # al hacer clic en el botón
 # crear un bonton para el diagrama de dispersion
 scatter_button = st.button("Construir diagrama de dispersión")
 if scatter_button:
+    st.header('Diagrama de Dispersión: Odometer vs Price')
     st.write('Creación de un gráfico de dispersión para el conjunto de datos de anuncios de venta de coches')
     # Crear un gráfico de dispersión
     fig_scatter = px.scatter(car_data, x="odometer", y="price", color="condition",
